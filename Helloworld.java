@@ -147,14 +147,16 @@ public class Helloworld {
 //        }
 //for(counter =0; counter<11; coun
 
-//                for (int counter=0; counter<11;counter++){
-//                        System.out.println(counter+" ");
-//                }
-//        }
-//}
-                int n = sc.nextInt();
-                for (int i=1; i<=10; i++) {
-                System.out.println(i*n);
+                for (int counter = 0; counter < 11; counter++) {
+                        System.out.println(counter + " ");
+
+
+                        int n = sc.nextInt();
+                        for (int i = 1; i <= 10; i++) {
+                                System.out.println(i * n);
+                        }
+                }
         }
 }
-}
+
+                
